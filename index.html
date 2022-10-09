@@ -31,8 +31,17 @@
         <h3><label>Enter The Date:</label>
             <input type="date" name="today's date" placeholder="mm-dd-yyyy" value="jjj" min="10-01-2022" max="01-01-2050"></h3>
 
+
         <h3>Meeting Information</h3>
         <p><i>Lorem</i> Ipsum <br> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+
+
+        <details>
+            <summary><strong>Click for more information</strong></summary>
+            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </details>
+
+
 
     </header>
 
@@ -73,12 +82,39 @@
             </ul>
         </section>
 
+
+        <section>
+            <h3>Choose a person who runs the meeting today</h3>
+
+            <form>
+                <label for="person">Choose person from the list</label>
+                <input list="persons" name="person" id="person">
+                <datalist id="persons">
+                    <option value="John Akamu">
+                    <option value="Nahan Joe">
+                    <option value="Akoni Paul">
+                    <option value="Ekewaka Kaon">
+                    <option value="Haukea Chaon">
+                    <option value="Haunani Kei">
+                    <option value="Teman Tom">
+                    <option value="Soganu Sokem">
+                </datalist>
+            </form>
+
+        </section>
+
+        <br><br>
+
         <div>
             <img src="./meeting.jpg" alt="Business Meeting image" width="600" height="400">
+
+            <br><br> <br><br>
 
             <video width="400" height="400" controls>
                 <source src="./video.mp4" type="video/mp4">
             </video>
+
+            <br><br><br><br>
 
             <audio controls>
                 <source src="./video.mp4" type="audio/mp4">
@@ -87,7 +123,7 @@
         </div>
 
 
-
+        <br><br><br><br><br><br><br><br>
         <fieldset>
             <legend>People <em>Not</em> Present In the Meeting</legend>
 
@@ -122,7 +158,7 @@
     </main>
 
 
-
+    <br><br><br><br><br><br>
     <footer>
         <a href="mailto:rahmadi@ucsd.edu"> Drop an Email &hearts;</a>
     </footer>
