@@ -10,12 +10,29 @@
 
     <header>
 
-        <h2>Board Conference</h2>
+        <h1><em>Board Conference</em></h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Advising Center</a></li>
+                <li>
+                    <a href="index.html">Our Projects</a></li>
+                <li>
+                    <a href="index.html">Future Goal</a></li>
+                <li>
+                    <a href="index.html">Support Us</a></li>
+            </ul>
+        </nav>
+
+
+
+
         <h3><label>Enter The Date:</label>
             <input type="date" name="today's date" placeholder="mm-dd-yyyy" value="jjj" min="10-01-2022" max="01-01-2050"></h3>
 
         <h3>Meeting Information</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+        <p><i>Lorem</i> Ipsum <br> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
 
     </header>
 
@@ -23,14 +40,22 @@
         <section>
             <h3>Agenda for Today's meeting</h3>
             <ol>
-                <li>Fall Goal</li>
-                <li>Fall Backlog</li>
-                <li>Epics to be Delivered</li>
+                <li>Fall <b>Goal</b></li>
+                <hr>
+                <li>Fall <b>Backlog</b></li>
+                <hr>
+                <li><strong>Epics to be Delivered</strong></li>
+                <hr>
                 <li>Scope of Work Clarification</li>
-                <li>Key Risks & COncerns</li>
+                <hr>
+                <li>Key <b>Risks</b> & Concerns</li>
+                <hr>
                 <li>Notes and Takeaways</li>
+                <hr>
                 <li>Action you need to take</li>
+                <hr>
                 <li>Follow up meetings</li>
+                <hr>
             </ol>
 
             <h3>Attendance List</h3>
@@ -57,14 +82,50 @@
 
             <audio controls>
                 <source src="./video.mp4" type="audio/mp4">
-                <source src="./video.ogg" type="audio/ogg">
             </audio>
 
         </div>
 
 
 
+        <fieldset>
+            <legend>People <em>Not</em> Present In the Meeting</legend>
+
+            <form>
+                <label for="fname">First name</label>
+                <input type="text" id="fname" name="fname">
+                <br><br>
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" name="lname">
+                <br><br>
+                <label for="reason" id="reason" name="reason">Select a reason</label>
+
+                <select>
+                    <option name="reason">Select a reason</option>
+                    <option name="reason">Sick</option>
+                    <option name="reason">Late</option>
+                    <option name="reason">Other</option>
+                </select>
+
+                <br><br>
+                <label for="details"> Type Details</label>
+                <textarea></textarea>
+            </form>
+
+            <br>
+
+            <input type="submit" value="submit">
+
+        </fieldset>
+
+
     </main>
+
+
+
+    <footer>
+        <a href="mailto:rahmadi@ucsd.edu"> Drop an Email &hearts;</a>
+    </footer>
 
 
 
