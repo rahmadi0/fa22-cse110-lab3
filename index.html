@@ -28,8 +28,8 @@
 
 
 
-        <h3><label>Enter The Date:</label>
-            <input type="date" name="today's date" placeholder="mm-dd-yyyy" value="jjj" min="10-01-2022" max="01-01-2050"></h3>
+        <h3><label id="begin">Enter The Date:</label></h3>
+        <input type="date" name="begin" value="" min="2022-01-01" max="2050-01-01">
 
 
         <h3>Meeting Information</h3>
@@ -50,22 +50,16 @@
             <h3>Agenda for Today's meeting</h3>
             <ol>
                 <li>Fall <b>Goal</b></li>
-                <hr>
                 <li>Fall <b>Backlog</b></li>
-                <hr>
                 <li><strong>Epics to be Delivered</strong></li>
-                <hr>
                 <li>Scope of Work Clarification</li>
-                <hr>
                 <li>Key <b>Risks</b> & Concerns</li>
-                <hr>
                 <li>Notes and Takeaways</li>
-                <hr>
                 <li>Action you need to take</li>
-                <hr>
                 <li>Follow up meetings</li>
-                <hr>
             </ol>
+
+            <hr>
 
             <h3>Attendance List</h3>
 
@@ -134,13 +128,13 @@
                 <label for="lname">Last name</label>
                 <input type="text" id="lname" name="lname">
                 <br><br>
-                <label for="reason" id="reason" name="reason">Select a reason</label>
+                <label id="reason">Select a reason</label>
 
                 <select>
-                    <option name="reason">Select a reason</option>
-                    <option name="reason">Sick</option>
-                    <option name="reason">Late</option>
-                    <option name="reason">Other</option>
+                    <option>Select a reason</option>
+                    <option>Sick</option>
+                    <option>Late</option>
+                    <option>Other</option>
                 </select>
 
                 <br><br>
