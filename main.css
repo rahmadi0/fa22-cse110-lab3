@@ -3,6 +3,11 @@ body {
     color: black;
 }
 
+h1:hover {
+    color: white;
+    list-style-type: upper-alpha;
+}
+
 nav {
     width: 100%;
 }
@@ -32,8 +37,12 @@ nav a {
 
 #dateBegin {
     float: right;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 20px;
+}
+
+#dateBegin:hover {
+    color: red;
 }
 
 main aside {
@@ -44,10 +53,28 @@ nav a:hover {
     color: cadetblue;
 }
 
+#legendId:hover {
+    color: white;
+    background-color: rgba(2, 3, 4, 1);
+}
+
+summary:hover {
+    color: white;
+    background-color: rgba(2, 3, 4, 1);
+}
+
+h3:hover {
+    color: white;
+    background-color: rgba(2, 3, 4, 1);
+}
+
 #contact_form {
     width: 100%;
     height: 250px;
-    background-color: dimgray;
+}
+
+#contact_form:hover {
+    background-color: gray
 }
 
 #contact_form input {
@@ -56,13 +83,19 @@ nav a:hover {
     margin-top: 15px;
 }
 
+#contact_form label:hover {
+    color: white;
+    background-color: black;
+}
+
 #btn_submit {
     padding: 10px;
     width: 10%;
 }
 
 #btn_submit:hover {
-    color: royalblue;
+    color: white;
+    background-color: black;
 }
 
 
