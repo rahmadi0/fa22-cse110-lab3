@@ -1,0 +1,47 @@
+nav {
+    width: 100%;
+}
+
+.nav_bar ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_bar ul {
+    background-color: rgba(2, 3, 4, 1);
+    color: #fff;
+    border: 3px solid gray;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    gap: 3rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+#dateBegin {
+    float: right;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+main aside {
+    display: block;
+}
+
+
+/*--------------larger-screen--------------*/
+
+@media screen and (min-width: 950px) {
+    main aside {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}

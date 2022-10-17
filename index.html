@@ -4,15 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Meeting Minutes</title>
+
+    <link href="main.css" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
 
-        <h1><em>Board Conference</em></h1>
+        <h1><em>Board Conference</em>
+            <input type="date" id="dateBegin" name="begin" value="" min="2022-01-01" max="2050-01-01">
 
-        <nav>
+        </h1>
+
+        <nav class="nav_bar">
             <ul>
                 <li>
                     <a href="index.html">Advising Center</a></li>
@@ -28,8 +33,7 @@
 
 
 
-        <h3><label id="begin">Enter The Date:</label></h3>
-        <input type="date" name="begin" value="" min="2022-01-01" max="2050-01-01">
+        <!-- <h3><label id="begin">Enter The Date:</label></h3> -->
 
 
         <h3>Meeting Information</h3>
@@ -99,25 +103,29 @@
 
         <br><br>
 
-        <div>
-            <img src="./meeting.jpg" alt="Business Meeting image" width="600" height="400">
 
-            <br><br> <br><br>
+        <aside>
 
-            <video width="400" height="400" controls>
-                <source src="./video.mp4" type="video/mp4">
-            </video>
+            <section>
+                <img src="./meeting.jpg" alt="Business Meeting image" width="400" height="400">
+            </section>
 
-            <br><br><br><br>
+            <section>
+                <video width="400" height="400" controls>
+                    <source src="./video.mp4" type="video/mp4">
+                </video>
+            </section>
 
-            <audio controls>
-                <source src="./video.mp4" type="audio/mp4">
-            </audio>
+            <section>
+                <audio controls>
+                    <source src="./video.mp4" type="audio/mp4">
+                </audio>
+            </section>
+        </aside>
 
-        </div>
 
+        <br><br><br><br><br><br>
 
-        <br><br><br><br><br><br><br><br>
         <fieldset>
             <legend>People <em>Not</em> Present In the Meeting</legend>
 
