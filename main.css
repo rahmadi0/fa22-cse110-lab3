@@ -63,7 +63,22 @@ summary:hover {
     background-color: rgba(2, 3, 4, 1);
 }
 
-h3:hover {
+body+p:hover {
+    color: white;
+    background-color: rgba(2, 3, 4, 1);
+}
+
+section~li:hover {
+    color: white;
+    background-color: rgba(2, 3, 4, 1);
+}
+
+section>h3:hover {
+    color: white;
+    background-color: rgba(2, 3, 4, 1);
+}
+
+form:hover {
     color: white;
     background-color: rgba(2, 3, 4, 1);
 }
